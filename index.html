@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en" class="h-100">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.84.0">
+    <title>REST Countries API</title>
+    <link rel="shortcut icon" href="https://programathor.com.br/blog/wp-content/uploads/2018/08/api-768x768.png" >
+    <!-- Site da imagem https://programathor.com.br/blog/o-que-e-api/ -->
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/cover/">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/cover.css">
+
+    </head>
+
+    <body class="d-flex text-center text-white bg-dark">
+    
+        <div class="dropdown cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+            <header class="mb-auto">
+                <h3 class="float-md-start mb-0">Rest Countries</h3>
+            </header>
+
+            <main class="px-3">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 mt-5">
+                            <input class="form-control" list="datalistOptions" id="countries" placeholder="Type a country ...">
+                            <datalist id="datalistOptions"></datalist>
+                        </div>
+                        <div id="flag-container" class="col-5 mt-5">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIaayRBtZvKJfg5afEwjrkRPus8ngNz4nAJw&usqp=CAU" alt="" class="img-thumbnail rounded mx-auto d-block" width="300" height="300">
+                        </div>
+                        <br>
+                        <div class="col-7 mt-5 text-start">
+                                <p>Name: <span id="name"></span></p>
+                                <p>Flag: <span id="flag"></span></p>
+                                <p>Capital: <span id="capital"></span></p>
+                                <p>Continent: <span id="continents"></span></p>                                
+                                <p>Area: <span id="area"></span></p>
+                                <p>Population: <span id="population"></span></p>
+                                <p>Currencies: <span id="currencies"></span></p>
+                                <p>Code Phone: <span id="idd"></span></p>
+                                <p>Subregion: <span id="subregion"></span></p>
+                        </div>
+                    </div>
+                </div>
+            </main>
+
+            <footer class="mt-5">
+                <a class="text-white-50" href="https://github.com/klebersonfialhobaleeiro" target="_blank">Kléberson Fialho Baleeiro</a>
+            </footer>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>
